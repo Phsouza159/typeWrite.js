@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>typeWrite</title>
+
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+    </style>
+    <link rel="stylesheet" href="./assets/site.css">
+
+
+</head>
+
+<body>
+    <div class="content">
+        <label id='texto'>Eu sou 
+            <label 
+                data-write='minhaLista'
+                data-barColor='red'
+                data-barText='|'
+                class="text-red" ></label>
+        <label>
+
+        <p>João <label class="text-red">14.6</label></p>
+    </div>
+ 
+    <script src="./typewrite.js"></script>
+    <script>
+
+        var minhaLista = [
+            "a verdade.", 
+            "a vida.",
+            "Jesus." 
+        ]
+        
+        typeWrite();
+
+    </script>
+
+</body>
+
+</html>

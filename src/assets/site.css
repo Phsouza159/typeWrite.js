@@ -1,0 +1,22 @@
+body {
+    background-color: aliceblue;
+}
+
+.content {
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+
+p {
+    font-size: 15px;
+}
+
+.text-red {
+    color: red;
+}
